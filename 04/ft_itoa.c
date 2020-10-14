@@ -30,7 +30,7 @@ char	*ft_itoa(int nbr)
     if (nbr == 0)
         return("0");
     if (nbr == -2147483648)
-        return("-2147483648\0");
+        return("-2147483648");
     res[len] = '\0';
     if (nbr < 0)
     {
